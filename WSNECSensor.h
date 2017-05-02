@@ -38,6 +38,9 @@ public:
 	uint8_t getMesure();
 	void init(uint8_t mesure, uint16_t conv ,uint8_t taille);
 	void init();
+	float getTemperature();
+	Temperature *temperature;
+
 private:
 	uint8_t _sensorPin;
 	uint8_t _sensorvalue;
@@ -51,7 +54,6 @@ private:
 	uint16_t AnalogValueTotal, printTime;                  // the running total
 	uint8_t AnalogAverage,averageVoltage; 
 	uint8_t _sensorTempPin;  
- 	Temperature *temperature;
 	float temp;
 	
 };

@@ -72,6 +72,12 @@ void EC::init(uint8_t mesure, uint16_t Convertion,uint8_t taille)
 	averageVoltage=0;
 };
 
+float EC::getTemperature()
+{
+	return temperature->getTemperature();
+};
+
+
 uint8_t EC::getMesure()
 {
 	return _sensorvalue;

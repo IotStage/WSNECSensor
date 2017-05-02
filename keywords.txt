@@ -1,0 +1,21 @@
+ #######################################
+# Syntax Coloring Map For EC lib
+######################################## 
+# Class
+#######################################
+
+EC	KEYWORD1
+
+#######################################
+# Methods and Functions 
+#######################################	
+init KEYWORD2
+moyenne KEYWORD2
+getMesure KEYWORD2
+updateEC KEYWORD2
+
+#######################################
+# Constants
+#######################################
+
+SensorPinEC LITERAL1
